@@ -6,9 +6,7 @@
     --header-height: 3rem;
 
     /*========== Colors ==========*/
-    /* Change favorite color to match images */
-    /*Green dark 190 - Green 171 - Grren Blue 200*/
-    --hue-color: 190;
+    --hue-color: 180;
 
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 64%, 22%);
@@ -697,17 +695,6 @@ input{
         &:hover{
             color: var(--title-color);
         }
-    }
-    &__rights{
-        display: flex;
-        flex-direction: column;
-        row-gap: 1.5rem;
-        text-align: center;
-    }
-    &__copy,
-    &__terms-link{
-        font-size: var(--small-font-size);
-        color: var(--text-color-light);
     }
     &__terms{
         display: flex;
